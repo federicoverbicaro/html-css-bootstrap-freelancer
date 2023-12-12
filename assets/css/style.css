@@ -1,0 +1,17 @@
+
+/* HEADER */
+.brg-blu{
+    background-color: rgb(44,62,80);
+}
+.col > h3{
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu > span{
+    padding-inline: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
