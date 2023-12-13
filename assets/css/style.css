@@ -12,6 +12,10 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+span.navbar-icon{
+  color: white;
+}
+
 
 /* MAIN */
 .brg-verde{
@@ -52,11 +56,15 @@
 .brg-blu2{
     background-color:rgb(58,85,109) ;
 }
-.br-white{
-    border-color: white;
+.height{
+    line-height: 50px;
 }
-
-
+.width{
+    width: 70%;
+}
+.offcanvas.offcanvas-end{
+    width: 50%;
+}
 
 
 

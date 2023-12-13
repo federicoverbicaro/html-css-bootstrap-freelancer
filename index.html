@@ -19,26 +19,67 @@
             <div class="container-md p-4">
                 <div class="row d-flex">
 
-                    <div class="col testo-white">
+                    <div class="col testo-white align-self-center">
                         <h3>START BOOTSTRAP</h3>
                     </div>
                     <div class="col align-self-center">
                         <div class="menu d-flex justify-content-end  d-sm-none">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14"
-                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
-                                    <path
-                                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-                                        fill="gray" />
-                                </svg>
-                            </span>
+
+                            <nav class="navbar">
+                                <div class="height">
+
+                                    <button class="navbar-toggler bg-trasparent" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                                        aria-label="Toggle navigation">
+                                        <span class="navbar-icon">
+                                            <i class="bi bi-list"></i>
+                                        </span>
+                                    </button>
+
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                        aria-labelledby="offcanvasNavbarLabel">
+                                        <div class="offcanvas-header">
+
+                                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Start Bootstrap</h5>
+
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                                aria-label="Close">
+                                            </button>
+
+                                        </div>
+
+                                        <div class="offcanvas-body">
+                                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page"
+                                                        href="#portfolio">Portfolio</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#about">About</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                       <a class="nav-link" href="#contact">Contact</a> 
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+
 
                         </div>
                         <div class="menu1 d-none d-sm-flex justify-content-end">
                             <ul class="list-inline">
-                                <li class="list-inline-item">PORTFOLIO</li>
-                                <li class="list-inline-item">ABOUT</li>
-                                <li class="list-inline-item">CONTACT</li>
+                                <li class="list-inline-item">
+                                   <a class="white text-decoration-none" href="#portfolio">PORTFOLIO</a> 
+                                </li>
+                                <li class="list-inline-item">
+                                   <a class="white text-decoration-none" href="#about">ABOUT</a> 
+                                </li>
+                                <li class="list-inline-item">
+                                   <a class="white text-decoration-none" href="#contact"> CONTACT</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -95,7 +136,7 @@
 
         </div>
         <!-- secondo contenitore -->
-        <div class="container-fluid mb-5">
+        <div id="portfolio" class="container-fluid mb-5">
             <div class="container text-center mt-4">
 
                 <div class="row d-flex flex-column">
@@ -157,7 +198,7 @@
             </div>
         </div>
         <!-- terzo contenitore -->
-        <div class="container-fluid brg-verde pb-4">
+        <div id="about" class="container-fluid brg-verde pb-4">
             <div class="container ">
                 <div class="row justify-content-center">
 
@@ -207,7 +248,7 @@
 
         </div>
         <!-- quarto cotenitore -->
-        <div class="container-fluid pt-5 pb-5">
+        <div id="contact" class="container-fluid pt-5 pb-5">
             <div class="container">
                 <div class="row flex-column">
                     <div class="col text-uppercase text-center">
@@ -229,7 +270,7 @@
                         </div>
                     </div>
 
-                    <form class="mt-4 align-self-center flex-column">
+                    <form class="mt-4 align-self-center flex-column width">
                         <div class="mb-2">
 
                             <input type="text" class="form-control border-end-0 border-start-0 border-top-0"
@@ -265,49 +306,54 @@
     <footer>
         <div class="container-fluid brg-blu2">
             <div class="container pt-4">
-                <div class="row flex-column text-center row-gap-4">
-                    <div class="col text-uppercase white">
+                <div class="row text-center row-gap-4">
+
+                    <!-- location -->
+                    <div class="col col-md-4 text-uppercase white">
                         <h3>location</h3>
                         <p class="text-capitalize">2215 john daniel drive clark, MO 54243</p>
                     </div>
+                    <!-- around the web  -->
 
-                    <div class="col text-uppercase white">
+                    <div class="col col-md-4 text-uppercase white">
                         <h3>around the web</h3>
                         <div class="d-flex fle-row justify-content-center gap-3">
 
-                            <div class=" br-white">
-                                <span class="rounded-circle">
+                            <div class="border border-white rounded-circle lh-lg ">
+                                <span class="p-3  height">
                                     <i class="bi bi-facebook"></i>
                                 </span>
-                                
+
                             </div>
 
-                            <div class=" br-white"> 
-                                <span class="rounded-circle">
+                            <div class=" border border-white rounded-circle lh-lg ">
+                                <span class="p-3  height">
                                     <i class="bi bi-google"></i>
                                 </span>
-                               
+
                             </div>
 
-                            <div class=" br-white">
-                                <span class="rounded-circle">
+                            <div class="border border-white rounded-circle lh-lg ">
+                                <span class="p-3  height">
                                     <i class="bi bi-twitter-x"></i>
                                 </span>
-                                
+
                             </div>
 
-                            <div class="br-white">
-                                <span class="rounded-circle">
+                            <div class="border border-white rounded-circle lh-lg ">
+                                <span class="p-3 height ">
                                     <i class="bi bi-linkedin"></i>
                                 </span>
-                               
+
                             </div>
                         </div>
 
                     </div>
-                    <div class="col text-uppercase white">
+                    <!-- about freelancer -->
+                    <div class="col col-md-4 text-uppercase white">
                         <h3>about freelancer</h3>
-                        <p class="text-capitalize">freelance is a free to use, opne source bootstrap theme created by <a class="text-decoration-none  color-verde" href="#">start
+                        <p class="text-capitalize">freelance is a free to use, opne source bootstrap theme created by <a
+                                class="text-decoration-none  color-verde" href="#">start
                                 bootstrap.</a></p>
 
                     </div>
