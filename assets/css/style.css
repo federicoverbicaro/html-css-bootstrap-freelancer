@@ -17,9 +17,15 @@
 .brg-verde{
     background-color:rgb(25,188,156) ;
 }
+.color-verde{
+    color: rgb(25,188,156);
+}
 
 .star-white{
    color: white;
+}
+.white{
+    color: white;
 }
 .sao-h{
     color: white;
@@ -42,8 +48,13 @@
     color: white;
     background-color: transparent;
 }
-
-
+/* footer */
+.brg-blu2{
+    background-color:rgb(58,85,109) ;
+}
+.br-white{
+    border-color: white;
+}
 
 
 
